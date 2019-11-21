@@ -137,7 +137,7 @@ namespace Курсовая
             Exit.Content = sr.ReadLine();
         }
 
-        private void Exit_Click(object sender, RoutedEventArgs e)
+        private void Exit(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
