@@ -51,7 +51,7 @@
             <Button x:Name="GrenStatus" Content="1" Canvas.Left="190" Canvas.Top="570" Width="137" Style="{DynamicResource ButtomHegsGren}" Height="101" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48"/>
             <Button x:Name="RedStatus" Content="1" Canvas.Left="518" Canvas.Top="570" Width="137" Style="{DynamicResource ButtomHegsRed}" Height="101" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48"/>
         </Canvas>
-        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="117,504,0,0" VerticalAlignment="Top" Width="200" Style="{DynamicResource DefBut}" Height="43" Cursor="Hand"/>
+        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="117,504,0,0" VerticalAlignment="Top" Width="200" Style="{DynamicResource DefBut}" Height="43" Cursor="Hand" Click="Exit_Click"/>
         <Button x:Name="ButSetLanRu" Content="" HorizontalAlignment="Left" Margin="75,606,0,0" VerticalAlignment="Top" Width="160" Style="{DynamicResource RuBut}" Height="120" Click="SetLanRu"/>
         <Button x:Name="ButSetLanUk" Content="" HorizontalAlignment="Left" Margin="258,606,0,0" VerticalAlignment="Top" Width="160" Style="{DynamicResource UkBut}" Height="120" Click="SetLanUk"/>
 

@@ -136,5 +136,10 @@ namespace Курсовая
             StreamReader sr = new StreamReader(pathUK);
             Exit.Content = sr.ReadLine();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
