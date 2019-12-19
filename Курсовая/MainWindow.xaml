@@ -11,49 +11,57 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Canvas x:Name="Field" HorizontalAlignment="Left" Margin="457,10,0,10" Width="899" Background="#FFF1E7E7" RenderTransformOrigin="0.505,0.598">
-            <Button x:Name="B1" Content="" Canvas.Left="374" Canvas.Top="461" Width="98" Style="{DynamicResource ButtomHegsGren}" Height="79" Click="Button_Click" Cursor="Hand" Background="#FF85C711"/>
-            <Button x:Name="B7" Content="" Canvas.Left="446" Canvas.Top="419" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B8" Content="" Canvas.Left="374" Canvas.Top="383" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B2" Content="" Canvas.Left="302" Canvas.Top="424" Width="98" Style="{DynamicResource ButtomHegs}" Height="80" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B14" Content="" Canvas.Left="446" Canvas.Top="340" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B13" Content="" Canvas.Left="518" Canvas.Top="376" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B15" Content="" Canvas.Left="374" Canvas.Top="304" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B9" Content="" Canvas.Left="303" Canvas.Top="345" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B3" Content="" Canvas.Left="229" Canvas.Top="387" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B10" Content="" Canvas.Left="229" Canvas.Top="308" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B16" Content="" Canvas.Left="303" Canvas.Top="266" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" RenderTransformOrigin="-0.168,-1.718" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B20" Content="" Canvas.Left="518" Canvas.Top="297" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B21" Content="" Canvas.Left="446" Canvas.Top="261" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B29" Content="" Canvas.Left="374" Canvas.Top="146" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B4" Content="" Canvas.Left="157" Canvas.Top="349" Width="98" Style="{DynamicResource ButtomHegs}" Height="80" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B19" Content="" Canvas.Left="590" Canvas.Top="333" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B5" Content="" Canvas.Left="83" Canvas.Top="313" Width="98" Style="{DynamicResource ButtomHegs}" Height="78" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B6" Content="" Canvas.Left="10" Canvas.Top="277" Width="97" Style="{DynamicResource ButtomHegs}" Height="78" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B25" Content="" Canvas.Left="660" Canvas.Top="290" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B11" Content="" Canvas.Left="158" Canvas.Top="270" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B26" Content="" Canvas.Left="590" Canvas.Top="254" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B27" Content="" Canvas.Left="518" Canvas.Top="218" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B32" Content="" Canvas.Left="660" Canvas.Top="211" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B12" Content="" Canvas.Left="83" Canvas.Top="234" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B17" Content="" Canvas.Left="229" Canvas.Top="229" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B18" Content="" Canvas.Left="157" Canvas.Top="191" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B23" Content="" Canvas.Left="302" Canvas.Top="187" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B28" Content="" Canvas.Left="446" Canvas.Top="182" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B33" Content="" Canvas.Left="590" Canvas.Top="175" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B34" Content="" Canvas.Left="518" Canvas.Top="139" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B24" Content="" Canvas.Left="229" Canvas.Top="150" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B30" Content="" Canvas.Left="303" Canvas.Top="108" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B35" Content="" Canvas.Left="446" Canvas.Top="103" Width="97" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B36" Content="" Canvas.Left="374" Canvas.Top="67" Width="98" Style="{DynamicResource ButtomHegsRed}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B22" Content="" Canvas.Left="374" Canvas.Top="225" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="B31" Content="" Canvas.Left="731" Canvas.Top="247" Width="98" Style="{DynamicResource ButtomHegs}" Height="79" Click="Button_Click" Cursor="Hand"/>
-            <Button x:Name="GrenStatus" Content="1" Canvas.Left="190" Canvas.Top="570" Width="137" Style="{DynamicResource ButtomHegsGren}" Height="101" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48"/>
-            <Button x:Name="RedStatus" Content="1" Canvas.Left="518" Canvas.Top="570" Width="137" Style="{DynamicResource ButtomHegsRed}" Height="101" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48"/>
+        <Canvas x:Name="Field" HorizontalAlignment="Left" Margin="331,10,0,10" Width="899" Background="#FFF1E7E7" RenderTransformOrigin="0.505,0.598">
+            <Button x:Name="B1" Content="" Canvas.Left="403" Canvas.Top="468" Width="106" Style="{DynamicResource ButtomHegsGren}" Height="86" Click="Button_Click" Cursor="Hand" Background="#FF85C711"/>
+            <Button x:Name="B7" Content="" Canvas.Left="481" Canvas.Top="423" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B8" Content="" Canvas.Left="403" Canvas.Top="384" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B2" Content="" Canvas.Left="326" Canvas.Top="428" Width="105" Style="{DynamicResource ButtomHegs}" Height="87" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B14" Content="" Canvas.Left="481" Canvas.Top="338" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B13" Content="" Canvas.Left="559" Canvas.Top="377" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B15" Content="" Canvas.Left="403" Canvas.Top="299" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B9" Content="" Canvas.Left="327" Canvas.Top="343" Width="104" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B3" Content="" Canvas.Left="247" Canvas.Top="388" Width="106" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B10" Content="" Canvas.Left="247" Canvas.Top="303" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B16" Content="" Canvas.Left="327" Canvas.Top="258" Width="104" Style="{DynamicResource ButtomHegs}" Height="85" RenderTransformOrigin="-0.168,-1.718" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B20" Content="" Canvas.Left="559" Canvas.Top="291" Width="105" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B21" Content="" Canvas.Left="481" Canvas.Top="252" Width="105" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B29" Content="" Canvas.Left="403" Canvas.Top="128" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B4" Content="" Canvas.Left="169" Canvas.Top="347" Width="106" Style="{DynamicResource ButtomHegs}" Height="87" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B19" Content="" Canvas.Left="637" Canvas.Top="330" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B5" Content="" Canvas.Left="89" Canvas.Top="308" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B6" Content="" Canvas.Left="10" Canvas.Top="270" Width="105" Style="{DynamicResource ButtomHegs}" Height="84" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B25" Content="" Canvas.Left="712" Canvas.Top="284" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B11" Content="" Canvas.Left="170" Canvas.Top="262" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B26" Content="" Canvas.Left="637" Canvas.Top="245" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B27" Content="" Canvas.Left="559" Canvas.Top="206" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B32" Content="" Canvas.Left="712" Canvas.Top="198" Width="105" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B12" Content="" Canvas.Left="89" Canvas.Top="223" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B17" Content="" Canvas.Left="247" Canvas.Top="218" Width="106" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B18" Content="" Canvas.Left="169" Canvas.Top="177" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B23" Content="" Canvas.Left="326" Canvas.Top="172" Width="104" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B28" Content="" Canvas.Left="481" Canvas.Top="167" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B33" Content="" Canvas.Left="637" Canvas.Top="159" Width="106" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B34" Content="" Canvas.Left="559" Canvas.Top="120" Width="105" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B24" Content="" Canvas.Left="247" Canvas.Top="132" Width="106" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B30" Content="" Canvas.Left="327" Canvas.Top="87" Width="104" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B35" Content="" Canvas.Left="481" Canvas.Top="82" Width="105" Style="{DynamicResource ButtomHegs}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B36" Content="" Canvas.Left="403" Canvas.Top="43" Width="106" Style="{DynamicResource ButtomHegsRed}" Height="85" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B22" Content="" Canvas.Left="403" Canvas.Top="213" Width="106" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="B31" Content="" Canvas.Left="789" Canvas.Top="237" Width="106" Style="{DynamicResource ButtomHegs}" Height="86" Click="Button_Click" Cursor="Hand"/>
+            <Button x:Name="GrenStatus" Content="1" Canvas.Left="205" Canvas.Top="562" Width="148" Style="{DynamicResource ButtomHegsGren}" Height="109" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48" ToolTip="Очки игрока"/>
+            <Button x:Name="RedStatus" Content="1" Canvas.Left="559" Canvas.Top="562" Width="148" Style="{DynamicResource ButtomHegsRed}" Height="109" Cursor="None" Background="#FF85C711" IsEnabled="False" FontSize="48" ToolTip="Очки бота"/>
+            <Label x:Name="PlayerName" Content="Игрок" Canvas.Left="247" Canvas.Top="694" FontSize="20"/>
+            <Label x:Name="BotName" Content="Лёгкий бот" Canvas.Left="579" Canvas.Top="694" FontSize="20"/>
+            <Label x:Name="VS" Content="VS" Canvas.Left="425" Canvas.Top="579" FontSize="48"/>
         </Canvas>
-        <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="117,504,0,0" VerticalAlignment="Top" Width="200" Style="{DynamicResource DefBut}" Height="43" Cursor="Hand" Click="Exit_Click"/>
-        <Button x:Name="ButSetLanRu" Content="" HorizontalAlignment="Left" Margin="75,606,0,0" VerticalAlignment="Top" Width="160" Style="{DynamicResource RuBut}" Height="120" Click="SetLanRu"/>
-        <Button x:Name="ButSetLanUk" Content="" HorizontalAlignment="Left" Margin="258,606,0,0" VerticalAlignment="Top" Width="160" Style="{DynamicResource UkBut}" Height="120" Click="SetLanUk"/>
+        <Button x:Name="ButSettings" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Style="{DynamicResource ButSettings}" Height="50" Cursor="Hand" Click="SettingsOpen" ToolTip="Настройки"/>
+        <Button x:Name="Exit" Content="" HorizontalAlignment="Left" Margin="1316,0,0,0" VerticalAlignment="Top" Width="50" Style="{DynamicResource ButEx}" Height="49" Cursor="Hand" Click="ExitBut" FontSize="48" ToolTip="Выйти"/>
+        <Button x:Name="Min" Content="" HorizontalAlignment="Left" Margin="1266,0,0,0" VerticalAlignment="Top" Width="50" Style="{DynamicResource ButMin}" Height="50" Click="MinBut" Cursor="Hand" ToolTip="Свернуть"/>
+        <TextBlock x:Name="Rulles1" HorizontalAlignment="Left" Margin="50,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="240" Width="242" Text="Правила игры просты: Перед вами поле 6x6, сделанное из гексагонов. Ваша задача заколючается в том, чтобы, путём поедания пустующих клеток, захватывать клетки соперника, тем самым оттесняя его и заполучая доминацию на карте." FontSize="18" Visibility="Hidden"/>
+        <Button x:Name="RullesBut" Content="" HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" Width="50" Style="{DynamicResource ButHelp}" Click="RullesBut_Click" Height="50" Cursor="Hand" ToolTip="Как играть?"/>
+        <TextBlock x:Name="Rulles2" HorizontalAlignment="Left" Margin="50,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="272" Width="242" FontSize="18" Text="Вариантов хода 2: Ходить можно на ближайшую клетку, расширяя свои территории, либо через 1 клетку, но тогда ваша текущая клетка станет нейтральной, таким образом можно как заполучить стратегическое преимущество, так и потерять его." Visibility="Hidden"/>
+        <TextBlock x:Name="Rulles3" HorizontalAlignment="Left" Margin="50,572,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="242" FontSize="18" Text="Игра считается оконченной, когда возможные ходы иссякают. Победит тот, у кого будет больше захваченных клеток." Visibility="Hidden"/>
+        <TextBlock x:Name="Rulles4" HorizontalAlignment="Left" Margin="50,719,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Width="242" Height="39" Text="Удачи!" Visibility="Hidden"/>
 
     </Grid>
 </Window>

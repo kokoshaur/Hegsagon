@@ -1,0 +1,25 @@
+﻿<Window x:Class="Курсовая.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d"
+        Title="Settings" Height="768" Width="1366" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" Icon="Cogwheel.png" WindowStyle="None" Background="#FFC54141">
+    <Grid>
+        <Button x:Name="LanRu" Content="" HorizontalAlignment="Left" Margin="85,122,0,0" VerticalAlignment="Top" Width="145" Click="SetLanRu" Style="{DynamicResource RuBut}" Height="143" Cursor="Hand" ToolTip="Русский"/>
+        <Button x:Name="LanUk" Content="" HorizontalAlignment="Left" Margin="392,122,0,0" VerticalAlignment="Top" Width="144" Style="{DynamicResource UkBut}" Height="143" Cursor="Hand" Click="SetLanUk" ToolTip="Украинский"/>
+        <Button x:Name="SaveClose" Content="Сохранить" HorizontalAlignment="Left" Margin="611,645,0,0" VerticalAlignment="Top" Width="162" Style="{DynamicResource DefBut}" Cursor="Hand" Height="78" Click="Save" ToolTip="Сохрать изменения"/>
+        <RadioButton x:Name="ModEs" Content="Лёгкий" HorizontalAlignment="Left" Margin="777,122,0,0" VerticalAlignment="Top" Height="43" Width="144"/>
+        <Slider x:Name="VolumLevel" HorizontalAlignment="Left" Margin="46,419,0,0" VerticalAlignment="Top" Width="262" Height="44" Maximum="100" Value="30"/>
+        <GroupBox x:Name="Hard" Header="Выберете сложность" HorizontalAlignment="Left" Height="300" Margin="720,11,0,0" VerticalAlignment="Top" Width="630" FontSize="22"/>
+        <RadioButton x:Name="ModMed" Content="Средний" HorizontalAlignment="Left" Margin="777,178,0,0" VerticalAlignment="Top" Height="41" Width="169" Checked="ModMed_Checked"/>
+        <RadioButton x:Name="ModHard" Content="Сложный" HorizontalAlignment="Left" Margin="777,233,0,0" VerticalAlignment="Top" Height="44" Width="178" Checked="ModHard_Checked"/>
+        <GroupBox x:Name="Language" Header="Выберете язык" HorizontalAlignment="Left" Height="297" Margin="10,16,0,0" VerticalAlignment="Top" Width="632" FontSize="22"/>
+        <GroupBox x:Name="Vol" Header="Выберете громкость" HorizontalAlignment="Left" Height="297" Margin="10,322,0,0" VerticalAlignment="Top" Width="632" FontSize="22"/>
+        <GroupBox x:Name="CheckPlayerName" Header="Уточните ваше имя" HorizontalAlignment="Left" Height="297" Margin="724,322,0,0" VerticalAlignment="Top" Width="632" FontSize="22">
+            <TextBox x:Name="CheckName" HorizontalAlignment="Left" Height="43" Margin="158,82,0,0" TextWrapping="Wrap" Text="Игрок" VerticalAlignment="Top" Width="254" FontSize="24"/>
+        </GroupBox>
+
+    </Grid>
+</Window>
